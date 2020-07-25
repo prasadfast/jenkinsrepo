@@ -2,13 +2,13 @@ pipeline {
         agent any
 	stages {
 	        stage ('build') {
-			               mkdir new  
+		       mkdir new  
 		}
 		stage ('Test') {
-			               mkdir hai 
+	                mkdir hai 
 		}
 		stage ('QA') {
-				       mkdir get 
+		       mkdir get 
 		  }
 				
       }
