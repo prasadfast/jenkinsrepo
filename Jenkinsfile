@@ -3,13 +3,13 @@ pipeline {
 	
 	stages {
 	           stage ('build') {
-			               echo "hello world" 
+			               touch new.txt
 			           }
 		  stage ('Test') {
-			               echo "hai world"
+			               touch hai.txt
 				}
 		  stage ('QA') {
-				       echo "super world" 
+				       touch get.txt
 				}
 				
 	}
