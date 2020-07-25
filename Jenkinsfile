@@ -3,13 +3,13 @@ pipeline {
 	
 	stages {
 	           stage ('build') {
-			               touch new.txt
+			               mkdir new
 			           }
 		  stage ('Test') {
-			               touch hai.txt
+			               mkdir hai
 				}
 		  stage ('QA') {
-				       touch get.txt
+				       mkdir get
 				}
 				
 	}
