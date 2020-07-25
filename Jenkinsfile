@@ -3,10 +3,10 @@ pipeline {
 	
 	stages {
 	           stage ('build') {
-			        echo "hello world" 
+			               echo "hello world" 
 			           }
 		  stage ('Test') {
-			         echo "hai world"
+			               echo "hai world"
 				}
 		  stage ('QA') {
 				       echo "super world" 
