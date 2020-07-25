@@ -4,11 +4,11 @@ pipeline {
 	stages {
 	           stage ('build') {
 			        echo "hello world" 
-			}
-			   stage ('Test') {
+			           }
+		  stage ('Test') {
 			         echo "hai world"
 				}
-				stage ('QA') {
+		  stage ('QA') {
 				       echo "super world" 
 				}
 				
